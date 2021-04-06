@@ -41,11 +41,18 @@ ul {
   padding: 10px 20px;
 }
 
+.delete-button {
+  padding: 1px 5px;
+  margin: 5px;
+  background-color: red;
+}
+
 .todo-list {
   flex: 1 1 0;
   margin-top: 20px;
   padding: 20px;
   overflow-y: auto;
+  background-color: black;
 }
 
 .todo-delete {
@@ -58,9 +65,18 @@ ul {
 
 .todo-container {
   padding: 20px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #eee;
 }
 
 .todo-container:first-of-type {
-  border-top: 1px solid #333;
+  border-top: 1px solid #eee;
+}
+
+.todo-text{
+  color: #069;
+}
+
+.alert-text{
+  color: #931;
+  text-align: center;
 }
